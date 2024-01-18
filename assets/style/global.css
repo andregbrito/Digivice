@@ -12,8 +12,7 @@
 }
 
 .digimons {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -29,11 +28,26 @@
   color: black;
 }
 
-.digimon .name_number {
+.digimon .digimon-title {
   display: flex;
   justify-content: space-between;
 }
 
-.digimon .name_number .name {
-  font-size: 25px;
+.digimon-title .name {
+  font-size: 30px;
+}
+
+.digimon img {
+  height: 100%;
+  width: auto;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.digimon-details {
+  display: flex;
+  justify-content: space-around;
 }

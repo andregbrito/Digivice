@@ -1,0 +1,52 @@
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+.content {
+  padding: 1rem;
+}
+.content h1 {
+  margin: 0;
+}
+
+.digimons {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.digimon {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid black;
+  color: black;
+}
+
+.digimon .digimon-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.digimon-title .name {
+  font-size: 30px;
+}
+
+.digimon img {
+  height: 100%;
+  width: auto;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.digimon-details {
+  display: flex;
+  justify-content: space-around;
+}
